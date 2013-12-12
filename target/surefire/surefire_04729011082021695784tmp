@@ -1,0 +1,9 @@
+#surefire_0
+#Fri Dec 13 00:49:06 IST 2013
+threadCount=3
+browser=chrome
+user.dir=C\:\\Selenium\\Zillow
+webdriver.chrome.driver=src/test/resources/chromedriver.exe
+parallel=methods
+localRepository=C\:\\Users\\Venki\\.m2\\repository
+basedir=C\:\\Selenium\\Zillow

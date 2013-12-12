@@ -44,9 +44,9 @@
                <browser>chrome</browser>
                <webdriver.chrome.driver>src/test/resources/chromedriver.exe</webdriver.chrome.driver>
              </systemPropertyVariables>
-            <suiteXmlFiles>
+             <!--   <suiteXmlFiles>
                <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-            </suiteXmlFiles> 
+            </suiteXmlFiles>  --> 
            </configuration>
           
         </plugin>
