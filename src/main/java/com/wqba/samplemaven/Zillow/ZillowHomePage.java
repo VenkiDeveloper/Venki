@@ -25,4 +25,11 @@ public class ZillowHomePage {
 		return driver.getTitle();
 	}
 	
+	//added by venkatesh
+	public void getElementAttrValue(){
+		WebElement logo = driver.findElement(By.cssSelector("a[title*='Zillow Real Estate']"));
+		String text = logo.getAttribute("title");
+		
+	}
+	
 }
