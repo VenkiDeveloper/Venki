@@ -19,7 +19,7 @@ public class ZillowHomePage {
 		String text = logo.getAttribute("title");
 		return text;
 	}
-	
+	//method for get the title of a page
 	public String homePage(){
 		
 		return driver.getTitle();
