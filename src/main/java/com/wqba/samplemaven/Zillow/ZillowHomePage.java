@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class ZillowHomePage {
 
 	WebDriver driver;
-	
+	//constructor to initialize the webdriver
 	public ZillowHomePage(WebDriver driver) {
 		
 		this.driver = driver;
